@@ -1,15 +1,17 @@
 from classes import Location, Combat
+from typing import List
 
-def choose_location(locations):
+def choose_location(locations : List[Location]):
     print("\nLocais disponíveis:")
-    for i, loc in enumerate(locations, 1):
-        print(f"{i} - {loc.name}")
+    for i, location in enumerate(locations, 1):
+        print(f"{i} - {location.name}")
 
     while True:
-        choice = input("Escolha o local: ")
-        if choice.isdigit() and 1 <= int(choice) <= len(locations):
-            return locations[int(choice) - 1]
-        print("Escolha inválida!")
+        try:
+            choice = int(input("Escolha o local: "))
+            return locations[choice - 1]
+        except (ValueError, IndexError):
+            print("Escolha inválida!")
 
 
 def start_location(player, locations):

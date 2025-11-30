@@ -2,7 +2,7 @@ from classes import Store
 from seed import create_cards, create_locations, create_starter_decks, create_store_cards
 from interfaces.create_player import create_player
 from interfaces.manage_deck import manage_deck
-from interfaces.locations import start_location, choose_location
+from interfaces.locations import start_location
 
 class Game:
     def __init__(self):
