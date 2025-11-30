@@ -2,7 +2,6 @@
 
 Trabalho da disciplina de programação, terceiro trimestre.
 
-## Alunos:
+## Alunos
 
 Arthur Sarturi Provenci | Joao Araldi Sabadin
-
