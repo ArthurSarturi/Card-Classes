@@ -1,133 +1,133 @@
 # OBJETIVOS
 
-    Nosso objetivo era transformar um codigo antigo, que funcionava como um modelo basico de RPG, para Orientação ao Objeto.
+Nosso objetivo era transformar um codigo antigo, que funcionava como um modelo basico de RPG, para Orientação ao Objeto.
 
 ## Oque fizemos?
 
-    Como o jogo funcionava? o jogo anteriormente, utilizava como metodo de funcionamento principal, listas, para a criação de temeplates como poor exemplo, baralhos iniciais, cartas e suas funcionalidades para todo funcionamento do codigo. 
-    Então apenas adaptamos a estrutura e logica de listas, para classes, oque reduziu e facilitou muito a legibilidade do codigo.
+Como o jogo funcionava? o jogo anteriormente, utilizava como metodo de funcionamento principal, listas, para a criação de temeplates como poor exemplo, baralhos iniciais, cartas e suas funcionalidades para todo funcionamento do codigo. 
+Então apenas adaptamos a estrutura e logica de listas, para classes, oque reduziu e facilitou muito a legibilidade do codigo.
 
 ## COMO FAZER? :
 
 CLASSES DE CONTROLE
-    - CLASSE CARTA (Usado para todas as cartas do jogo)
-    - CLASSE PLAYER (Armazena as informaçoes do player e seus metodos)
-    - CLASSE BATALHA (Toda a logica das batalhas funciona dentro dos metodos da mesma)
-    - CLASSE STORE (Toda logica da loja funciona dentro dos metodos)
-    etc.
+- CLASSE CARTA (Usado para todas as cartas do jogo)
+- CLASSE PLAYER (Armazena as informaçoes do player e seus metodos)
+- CLASSE BATALHA (Toda a logica das batalhas funciona dentro dos metodos da mesma)
+- CLASSE STORE (Toda logica da loja funciona dentro dos metodos)
+etc.
 
-    CLASSE GAME 
-        - ( TODO O CODIGO BRUTO PARA O ANDAMENTO DO JOGO )
+CLASSE GAME 
+- ( TODO O CODIGO BRUTO PARA O ANDAMENTO DO JOGO )
 
-    - (Função de inicio do jogo)
+- (Função de inicio do jogo)
 
 # DESENVOLVIMENTO
 
-    O desenvolvimento do jogo foi realizado em um arquivo separado, para evitar complicações de coordenação.
+O desenvolvimento do jogo foi realizado em um arquivo separado, para evitar complicações de coordenação.
 
 ### PASSO 1
 
-    A primeira etapa do desenvolvimento foi parar e pensar em como fazer oque era necessario.
-    A estrutura do codigo ja seguia um caminho bem definido, entao apenas pensamos em oque deveriamos transformar em classes
+A primeira etapa do desenvolvimento foi parar e pensar em como fazer oque era necessario.
+A estrutura do codigo ja seguia um caminho bem definido, entao apenas pensamos em oque deveriamos transformar em classes
 
-    Coisas como StarterDecks, PlayerDeck, e outras variaveis globais foram colocadas como possiveis itens para serem substituidos por classes ou atributos de classes.
+Coisas como StarterDecks, PlayerDeck, e outras variaveis globais foram colocadas como possiveis itens para serem substituidos por classes ou atributos de classes.
 
 ### PASSO 2
 
-    No segundo andamento, apos o planejamento do codigo, começamos a esculpir oque seria a forma inicial do nosso codigo novo, utilizando a estrutura base do codigo anter# OBJETIVOS
+No segundo andamento, apos o planejamento do codigo, começamos a esculpir oque seria a forma inicial do nosso codigo novo, utilizando a estrutura base do codigo anter# OBJETIVOS
 
-    Nosso objetivo era transformar um codigo antigo, que funcionava como um modelo basico de RPG, para Orientação ao Objeto.
+Nosso objetivo era transformar um codigo antigo, que funcionava como um modelo basico de RPG, para Orientação ao Objeto.
 
 ## Oque fizemos?
 
-    Como o jogo funcionava? o jogo anteriormente, utilizava como metodo de funcionamento principal, listas, para a criação de temeplates como poor exemplo, baralhos iniciais, cartas e suas funcionalidades para todo funcionamento do codigo. 
-    Então apenas adaptamos a estrutura e logica de listas, para classes, oque reduziu e facilitou muito a legibilidade do codigo.
+Como o jogo funcionava? o jogo anteriormente, utilizava como metodo de funcionamento principal, listas, para a criação de temeplates como poor exemplo, baralhos iniciais, cartas e suas funcionalidades para todo funcionamento do codigo. 
+Então apenas adaptamos a estrutura e logica de listas, para classes, oque reduziu e facilitou muito a legibilidade do codigo.
 
 ## COMO FAZER? :
 
 CLASSES DE CONTROLE
-    - CLASSE CARTA (Usado para todas as cartas do jogo)
-    - CLASSE PLAYER (Armazena as informaçoes do player e seus metodos)
-    - CLASSE BATALHA (Toda a logica das batalhas funciona dentro dos metodos da mesma)
-    - CLASSE STORE (Toda logica da loja funciona dentro dos metodos)
-    etc.
+- CLASSE CARTA (Usado para todas as cartas do jogo)
+- CLASSE PLAYER (Armazena as informaçoes do player e seus metodos)
+- CLASSE BATALHA (Toda a logica das batalhas funciona dentro dos metodos da mesma)
+- CLASSE STORE (Toda logica da loja funciona dentro dos metodos)
+etc.
 
-    CLASSE GAME 
-        - ( TODO O CODIGO BRUTO PARA O ANDAMENTO DO JOGO )
+CLASSE GAME 
+- ( TODO O CODIGO BRUTO PARA O ANDAMENTO DO JOGO )
 
-    - (Função de inicio do jogo)
+- (Função de inicio do jogo)
 
 # DESENVOLVIMENTO
 
-    O desenvolvimento do jogo foi realizado em um arquivo separado, para evitar complicações de coordenação.
+O desenvolvimento do jogo foi realizado em um arquivo separado, para evitar complicações de coordenação.
 
 ### PASSO 1
 
-    A primeira etapa do desenvolvimento foi parar e pensar em como fazer oque era necessario.
-    A estrutura do codigo ja seguia um caminho bem definido, entao apenas pensamos em oque deveriamos transformar em classes
+A primeira etapa do desenvolvimento foi parar e pensar em como fazer oque era necessario.
+A estrutura do codigo ja seguia um caminho bem definido, entao apenas pensamos em oque deveriamos transformar em classes
 
-    Coisas como StarterDecks, PlayerDeck, e outras variaveis globais foram colocadas como possiveis itens para serem substituidos por classes ou atributos de classes.
+Coisas como StarterDecks, PlayerDeck, e outras variaveis globais foram colocadas como possiveis itens para serem substituidos por classes ou atributos de classes.
 
 ### PASSO 2
 
-    No segundo andamento, apos o planejamento do codigo, começamos a esculpir oque seria a forma inicial do nosso codigo novo, utilizando a estrutura base do codigo anterior como guia.
+No segundo andamento, apos o planejamento do codigo, começamos a esculpir oque seria a forma inicial do nosso codigo novo, utilizando a estrutura base do codigo anterior como guia.
 
-    Foi definido que seria criada classes como:
-        PLAYER
-            (Armazena atributos como, seu deck, que tambem é uma classe, e outras coisas como a vida do jogador)
+Foi definido que seria criada classes como:
+PLAYER
+(Armazena atributos como, seu deck, que tambem é uma classe, e outras coisas como a vida do jogador)
         
-        CARDS
-            (Define como sao cada carta, seu preço, de quem vence, e oque faz).
+CARDS
+(Define como sao cada carta, seu preço, de quem vence, e oque faz).
 
-        STORE
-            (Contem metodos como para a funcionalidade de compra de cartas e as cartas possiveis de comprar)
+STORE
+(Contem metodos como para a funcionalidade de compra de cartas e as cartas possiveis de comprar)
 
-        DECK
-            (Conglomerado de Cards, e outros metodos)
+DECK
+(Conglomerado de Cards, e outros metodos)
 
-        COMBAT
-            (Metodos para o funcionamento da batalha entre o jogador)
+COMBAT
+(Metodos para o funcionamento da batalha entre o jogador)
 
-        LOCATION
-            (contem as informações dos inimigos, e a localização para enfrentar os inimigos)
+LOCATION
+(contem as informações dos inimigos, e a localização para enfrentar os inimigos)
 
 ### PASSO 3
 
-    conclusão e Polimento de todos os aspectos desejados.
+conclusão e Polimento de todos os aspectos desejados.
 
-    Tambem separamos em dois arquivos pra melhor leitura.
+Tambem separamos em dois arquivos pra melhor leitura.
 
 
 # CONCLUSÃO
 
-    O trabalho foi concluido, entregando todos os aspectos e necessidades para a implementação da Orientação ao Objeto, mas nenhuma funcionalidade extra foi feita, entregando um projeto que em aspectos de funcionalidade, funciona igualmente como a versão antiga.
+O trabalho foi concluido, entregando todos os aspectos e necessidades para a implementação da Orientação ao Objeto, mas nenhuma funcionalidade extra foi feita, entregando um projeto que em aspectos de funcionalidade, funciona igualmente como a versão antiga.
 
-    Foi definido que seria criada classes como:
-        PLAYER
-            (Armazena atributos como, seu deck, que tambem é uma classe, e outras coisas como a vida do jogador)
+Foi definido que seria criada classes como:
+PLAYER
+(Armazena atributos como, seu deck, que tambem é uma classe, e outras coisas como a vida do jogador)
         
-        CARDS
-            (Define como sao cada carta, seu preço, de quem vence, e oque faz).
+CARDS
+(Define como sao cada carta, seu preço, de quem vence, e oque faz).
 
-        STORE
-            (Contem metodos como para a funcionalidade de compra de cartas e as cartas possiveis de comprar)
+STORE
+(Contem metodos como para a funcionalidade de compra de cartas e as cartas possiveis de comprar)
 
-        DECK
-            (Conglomerado de Cards, e outros metodos)
+DECK
+(Conglomerado de Cards, e outros metodos)
 
-        COMBAT
-            (Metodos para o funcionamento da batalha entre o jogador)
+COMBAT
+(Metodos para o funcionamento da batalha entre o jogador)
 
-        LOCATION
-            (contem as informações dos inimigos, e a localização para enfrentar os inimigos)
+LOCATION
+(contem as informações dos inimigos, e a localização para enfrentar os inimigos)
 
 ### PASSO 3
 
-    conclusão e Polimento de todos os aspectos desejados.
+conclusão e Polimento de todos os aspectos desejados.
 
-    Tambem separamos em dois arquivos pra melhor leitura.
+Tambem separamos em dois arquivos pra melhor leitura.
 
 
 # CONCLUSÃO
 
-    O trabalho foi concluido, entregando todos os aspectos e necessidades para a implementação da Orientação ao Objeto, mas nenhuma funcionalidade extra foi feita, entregando um projeto que em aspectos de funcionalidade, funciona igualmente como a versão antiga.
+O trabalho foi concluido, entregando todos os aspectos e necessidades para a implementação da Orientação ao Objeto, mas nenhuma funcionalidade extra foi feita, entregando um projeto que em aspectos de funcionalidade, funciona igualmente como a versão antiga.
